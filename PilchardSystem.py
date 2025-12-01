@@ -4,8 +4,8 @@ import hgtk
 
 print('단어 데이터 로딩 중..')
 
-wordData='./Fin0.csv'
-bwordData='./Fin1.csv'
+wordData='../Fin0.csv'
+bwordData='../Fin1.csv'
 
 with open(wordData, "r", encoding="utf-8") as f:
     wordlist = [line.strip() for line in f if line.strip()]
